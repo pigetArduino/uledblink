@@ -38,9 +38,8 @@ https://learn.adafruit.com/adafruit-neopixel-uberguide/basic-connections
 ![Wiring_uled](https://raw.githubusercontent.com/pigetArduino/uled/master/doc/universalLed_wiring.png)
 
 # 3D printing
-This model is an all purpose case for arduino nano projects    
-Models by Olivier Sarrailh : https://github.com/pigetArduino/uled/tree/master/3D    
-You will need to fill a hole for the led strip (see wiring instructions)
+Models by Olivier Sarrailh (will post it)
+
 
 # Create your own applications
 * Check out: http://github.com/pigetArduino/utest   
