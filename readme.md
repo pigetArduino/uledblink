@@ -11,7 +11,7 @@ You can choose 6 color for each leds. (White/Red/Green/Blue/Yellow/Orange/Purple
 * Install drivers for arduino nano (clone ch340g) : http://nano.madnerd.org
 * Download arduino/python code : https://github.com/pigetArduino/uledblink/archive/master.zip
 * Upload sketch **uledblink.ino**
-* Get software : https://github.com/pigetArduino/releases
+* Get software : https://github.com/pigetArduino/uledblink/releases
 
 How to install drivers : https://www.youtube.com/watch?v=m3CsftsfiQU
 
