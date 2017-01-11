@@ -1,18 +1,17 @@
-[Version française / French version](https://github.com/pigetArduino/utest/blob/master/README.fr.MD)
+# WORK IN PROGRESS 
 
 ![Photo ULed](https://github.com/pigetArduino/uled/raw/master/doc/universalLed_photo.jpg)   
-Universal Led is an USB device based on an Arduino nano (clone) to easily control 5 leds on Windows    
-Demo: https://www.youtube.com/watch?v=hgvi46x4oaE
+Midi file to led
+Demo: 
 
-
-![ULed App](https://github.com/pigetArduino/uled/raw/master/doc/ul_app11.png)   
+![midiled App](https://raw.githubusercontent.com/pigetArduino/uledblink/master/doc/midiled_app.png)   
 You can choose 6 color for each leds. (White/Red/Green/Blue/Yellow/Orange/Purple)
 
 # Usage
 * Install drivers for arduino nano (clone ch340g) : http://nano.madnerd.org
-* Download arduino/python code : http://uled.madnerd.org
-* Upload sketch **uled.ino**
-* Download application : http://uledapp.madnerd.org    
+* Download arduino/python code : https://github.com/pigetArduino/uledblink/archive/master.zip
+* Upload sketch **uledblink.ino**
+* Get software : https://github.com/pigetArduino/releases
 
 How to install drivers : https://www.youtube.com/watch?v=m3CsftsfiQU
 
@@ -36,7 +35,7 @@ https://learn.adafruit.com/adafruit-neopixel-uberguide/basic-connections
 * +5V --> 5V
 * GND --> GND
 
-![Wiring_uled](https://github.com/pigetArduino/uled/raw/master/doc/universalLed_wiring.png)
+![Wiring_uled](https://raw.githubusercontent.com/pigetArduino/uled/master/doc/universalLed_wiring.png)
 
 # 3D printing
 This model is an all purpose case for arduino nano projects    
@@ -66,9 +65,5 @@ Baudrate : 115200 / No Line Ending
 * 7 : Purple
 
 # Licences
-Icon by jpapun
-Creative Commons Attribution (by)   
-Link : http://findicons.com/icon/158595/device_and_hardware
-
 Software by Rémi Sarrailh (madnerd.org)   
 Licence: MIT
