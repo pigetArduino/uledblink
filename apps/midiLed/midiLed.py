@@ -1,4 +1,5 @@
 import mido
+import mido.backends.pygame
 from lib import USB
 from threading import Thread
 import time

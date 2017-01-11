@@ -3,21 +3,21 @@
 ; By madnerd.org , Licence MIT
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
-#define MyAppName "Ubuzzer"
+#define MyAppName "midiled"
 #define MyAppVersion "0.5"
 #define MyAppPublisher "madnerd.org"
-#define MyAppURL "http://github.com/pigetArduino/ubuzzer"
-#define MyAppExeName "ubuzzer.exe"
+#define MyAppURL "http://github.com/pigetArduino/uledblink"
+#define MyAppExeName "midiLed.exe"
 
 ;CHANGE PATHS before compiling!
-#define APP "Y:\arduino\ubuzzer\apps\ubuzzer\dist\ubuzzer\"
+#define APP "Y:\arduino\uledblink\apps\midiLed\dist\midiLed\"
 #define DRIVERS "c:\nano"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
 ; Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{C7452F48-1C68-4FB4-AE7D-D25DF2717E33}
+AppId={{0AD4E976-1069-463B-829B-52D3E5834761}}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 ;AppVerName={#MyAppName} {#MyAppVersion}
@@ -27,7 +27,7 @@ AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={pf}\{#MyAppName}
 DisableProgramGroupPage=yes
-OutputBaseFilename=ubuzzer_setup
+OutputBaseFilename=midiLed_setup
 Compression=lzma
 SolidCompression=yes
 
@@ -38,7 +38,7 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "{#APP}\ubuzzer.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#APP}\midiLed.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "{#APP}\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "{#DRIVERS}\*"; DestDir: "{app}\nano"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
