@@ -1,5 +1,6 @@
 Midi file to Led
 ----
+More project : [@madnerd](https://twitter.com/m4dnerd)   
 ![Photo ULed](doc/leds2.jpg)   
 
 * Arduino code : https://github.com/pigetArduino/uledblink/archive/master.zip
