@@ -1,19 +1,35 @@
-# WORK IN PROGRESS 
+Midi file to Led
+----
+![Photo ULed](doc/leds2.jpg)   
 
-![Photo ULed](https://github.com/pigetArduino/uled/raw/master/doc/universalLed_photo.jpg)   
-Midi file to led
-Demo: 
+* Arduino code : https://github.com/pigetArduino/uledblink/archive/master.zip
+* Software : https://github.com/pigetArduino/uledblink/releases
+* Upload sketch **uledblink.ino**
+* Install midiLed_setup.exe
+
+Leds will sync with any (1:kick/2:snare/3:toms/4:hithat/5:cymbals)
 
 ![midiled App](https://raw.githubusercontent.com/pigetArduino/uledblink/master/doc/midiled_app.png)   
 You can choose 6 color for each leds. (White/Red/Green/Blue/Yellow/Orange/Purple)
 
-# Usage
-* Install drivers for arduino nano (clone ch340g) : http://nano.madnerd.org
-* Download arduino/python code : https://github.com/pigetArduino/uledblink/archive/master.zip
-* Upload sketch **uledblink.ino**
-* Get software : https://github.com/pigetArduino/uledblink/releases
+# Commands
+You can test the device in Arduino Serial Monitor   
+Baudrate : 115200 / No Line Ending   
 
-How to install drivers : https://www.youtube.com/watch?v=m3CsftsfiQU
+* ULed --------> Check if device is correct (turn off all led)
+* X:Y -------> (Where X is the led and Y the color)
+* 1:3 -------> (led 1 Green)
+
+# Color
+* 0 : OFF
+* 1 : White/ON
+* 2 : Red
+* 3 : Green
+* 4 : Blue
+* 5 : Yellow
+* 6 : Orange
+* 7 : Purple
+
 
 # Components
 * Arduino nano CH340G: 2€
@@ -36,32 +52,6 @@ https://learn.adafruit.com/adafruit-neopixel-uberguide/basic-connections
 * GND --> GND
 
 ![Wiring_uled](https://raw.githubusercontent.com/pigetArduino/uled/master/doc/universalLed_wiring.png)
-
-# 3D printing
-Models by Olivier Sarrailh (will post it)
-
-
-# Create your own applications
-* Check out: http://github.com/pigetArduino/utest   
-* The source code is available in **apps/utest**
-
-# Commands available
-You can test the device in Arduino Serial Monitor   
-Baudrate : 115200 / No Line Ending   
-
-* ULed --------> Check if device is correct (turn off all led)
-* X:Y -------> (Where X is the led and Y the color)
-* 1:3 -------> (led 1 Green)
-
-# Color
-* 0 : OFF
-* 1 : White/ON
-* 2 : Red
-* 3 : Green
-* 4 : Blue
-* 5 : Yellow
-* 6 : Orange
-* 7 : Purple
 
 # Licences
 Software by Rémi Sarrailh (madnerd.org)   
