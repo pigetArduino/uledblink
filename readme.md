@@ -6,8 +6,9 @@ Midi file to Led
 * Software : https://github.com/pigetArduino/uledblink/releases
 * Upload sketch **uledblink.ino**
 * Install midiLed_setup.exe
+* Open midi file
 
-Leds will sync with any (1:kick/2:snare/3:toms/4:hithat/5:cymbals)
+Leds will sync with a drum track (1:kick/2:snare/3:toms/4:hithat/5:cymbals)
 
 ![midiled App](https://raw.githubusercontent.com/pigetArduino/uledblink/master/doc/midiled_app.png)   
 You can choose 6 color for each leds. (White/Red/Green/Blue/Yellow/Orange/Purple)
